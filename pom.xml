@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.chrgeng.edxJavaOO</groupId>
+  <artifactId>EdX-OOP-in-Java_P1</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>P01</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <properties>
+  	<github.global.server>github</github.global.server>
+  </properties>
+  <scm>
+  	<url>https://github.com/ChristianGeng/JavaOOEdX.git</url>
+  	<connection>https://github.com/ChristianGeng/JavaOOEdX.git</connection>
+  	<developerConnection>Christian Geng</developerConnection>
+  	<tag>Mein Tag</tag>
+  </scm>
+</project>
