@@ -4,15 +4,14 @@ import java.util.Arrays;
 import java.util.ArrayList;
 
 /**
- * Hello world!
+ * Hello world!.
  *
  */
 
 
 
-public class App 
-{	
- 	public static void twoDimensionsM(int[][] numbers){
+public class App {
+  public static void twoDimensionsM(int[][] numbers){
 	    for (int i = 0; i < numbers.length - 1; i++){
 	        for (int j = 0; j < numbers[i].length - 1; j++){
 	            if (numbers[i][j] < numbers[i][j + 1]){
